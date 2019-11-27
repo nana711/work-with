@@ -1,0 +1,238 @@
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+* {
+    margin: 0px;
+    padding: 0px
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+   font-family:"Courier";
+}
+
+.container {
+    padding-left: 20px;
+    background-image:url(background.jpeg);
+}
+
+h3 {
+    color: #424242;
+}
+
+.inner {
+    overflow: hidden;
+}
+/*ヘッダー*/
+
+header {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    width: 100%;
+    height: 60px;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header li {
+    padding: 0 30px;
+}
+
+.header-select {
+    color: #595857;
+    display: block;
+    line-height: 20px;
+}
+
+.header-select:hover {
+    color: #990033;
+}
+
+/*top-wrapper*/
+
+.top-wrapper {
+    background-image: url(aus.JPG);
+    background-size: 100% 100%;
+    padding-top: 20%;
+}
+
+
+.top-portfolio {
+    margin-top: 200px;
+    font-size: 100px;
+    text-align: center;
+    color: darkred;
+    opacity: 0.8;
+}
+
+.top-name {
+    margin-top: 50px;
+    padding-bottom: 150px;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+
+/*profile*/
+
+.profile-pic {
+    border-radius: 20%;
+    height: auto;
+}
+
+.profile-title {
+    text-align: center;
+    font-size: 60px;
+    padding: 50px 0;
+}
+
+
+.profile-right {
+    padding-left: 60px;
+}
+
+table th {
+    text-align: left;
+    padding-right: 10px;
+}
+.profiles {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flags img {
+    padding-right: 10px;
+}
+
+.flags {
+    padding: 20px 0;
+}
+
+
+/*Skill*/
+
+.skill-wrapper {
+    clear: both;
+    
+}
+.skill-set {
+    display: flex;
+    margin: 0 auto;
+}
+.skills {
+    display:flex;
+}
+
+.skill-title {
+     padding: 50px 0;
+     text-align: center;
+    font-size: 60px;
+    
+}
+
+.skill-set-right {
+    margin-left: 20px;
+}
+
+
+/*works*/
+
+.works-title {
+    text-align: center;
+    font-size: 60px;
+     padding: 50px 0;
+}
+
+.works {
+    display: flex;
+    
+}
+
+.work {
+    width: 50%;
+}
+
+/*contact*/
+
+
+.contact-title {
+    text-align: center;
+    font-size: 60px;
+     padding: 50px 0;
+}
+
+.contact-text {
+    text-align: center;
+}
+
+form {
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 500px;
+}
+
+input, textarea {
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dee7ec;
+}
+
+label {
+    border-right: 3px solid #990033;
+}
+.send-botton {
+    display: inline-block;
+    background-color: #990033;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px 100px;
+    box-shadow: 0px 7px #660033;
+}
+.botton {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.send-botton:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+/*footer*/
+footer {
+    background-color: #424242;
+    height: 60px;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer-text{
+    text-align: center;
+    color: white;
+    line-height: 60px;
+}
+ 
+
