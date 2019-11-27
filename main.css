@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.main_visual {
+    background-image: url(bg-main_visual.jpg);
+    background-size: cover;
+    position: relative;
+    padding-top: 40%;
+    
+}
+
+
+.main_logo {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+}
+
+.company-wrapper {
+    text-align: center;
+    background-color: #fffff3;
+    padding: 100px 0;
+    z-index: 1;
+}
+
+.work-list {
+    width :960px;
+    margin: 0 auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.bg-content {
+    background-image: url(bg-content.jpg);
+    background-size: cover;
+}
+
+.bg-content h1{
+    margin-top: 0px;
+}
+
+.imagine-wrapper{
+    text-align: center;
+    padding: 100px 0;
+    background-color: #fffff3;
+    
+}
+
+.work-list li:nth-child(even) {
+      flex-direction: row-reverse;
+}
+
+
+.work-list li{
+    display: flex;
+    background-color: #fffff3;
+}
+
+.work-image {
+    width: 50%;
+}
+
+.work-right {
+    width: 50%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+.work-wrapper h1{
+    color: white;
+    text-align: center;
+}
+
+
+
+.company-wrapper h1 {
+    margin-bottom: 50px;
+}
+
+.company-wrapper p {
+    margin-bottom: 70px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    padding: 24px 20px;
+    background-color: #000;
+}
+
+footer p{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+footer a{
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.company-image {
+    display: flex;
+    justify-content: space-between;
+    width: 780px;
+    margin: 0 auto;
+}
+
